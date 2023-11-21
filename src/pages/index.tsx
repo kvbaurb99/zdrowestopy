@@ -1,6 +1,7 @@
 import AboutUs from "@/components/AboutUs/AboutUs";
 import AdditionalContact from "@/components/AdditionalContact/AdditionalContact";
 import BrImage from "@/components/BrImage/BrImage";
+import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import MapContainer from "@/components/Map/Map";
 import Navbar from "@/components/Navigation/Navbar";
@@ -25,6 +26,7 @@ export default function Home() {
       <Prices />
       <AdditionalContact />
       <MapContainer />
+      <Footer />
     </>
   );
 }

@@ -11,6 +11,7 @@ export default function AboutUs() {
           fill
           sizes="100%"
           alt="foots"
+          priority
           title="foots"
           className="object-cover"
         />

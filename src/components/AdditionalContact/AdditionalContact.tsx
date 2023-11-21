@@ -9,7 +9,7 @@ type Props = {};
 
 export default function AdditionalContact({}: Props) {
   return (
-    <section className="pt-20 pb-28 page-sizing flex justify-center gap-16 items-start">
+    <section className="pt-20 pb-24 page-sizing flex justify-center gap-16 items-start">
       <div className="w-full flex flex-col items-center">
         <figure className="border-4 hover:scale-95 duration-300 border-green-600 rounded-full p-6 max-w-fit">
           <Image
