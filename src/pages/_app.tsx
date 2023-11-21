@@ -1,8 +1,8 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
-const inter = Inter({
+const inter = Montserrat({
   subsets: ["latin"],
   weight: ["400", "500", "700", "900"],
 });

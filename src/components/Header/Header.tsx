@@ -11,10 +11,12 @@ export default function Header() {
     >
       <div className="absolute top-0 left-0 w-full h-full flex items-center bg-black/60">
         <div className="page-sizing">
-          <h1 className="font-extrabold text-white text-4xl leading-[75px]">
-            Gabinet podologiczny
-            <span className="block text-green-600 text-7xl">Zdrowe Stopy</span>
+          <h1 className="font-extrabold text-white tracking-wide text-7xl leading-[75px]">
+            Zdrowe stopy
           </h1>
+          <p className="mt-4 text-white font-medium">
+            Usługi podologiczne
+          </p>
         </div>
       </div>
     </header>

@@ -1,13 +1,10 @@
 import React from "react";
-import TopBar from "../TopBar/TopBar";
 
-type Props = {};
-
-export default function Navbar({}: Props) {
+export default function Navbar() {
   return (
-    <nav className="sticky bg-white w-full z-40 top-0 left-0 py-6">
+    <nav className="bg-white backdrop-blur-md w-full z-40 py-7">
       <div className="page-sizing">
-        <ul className="flex items-center gap-16 tracking-wide text-lg">
+        <ul className="flex items-center gap-16 tracking-wide text-lg font-medium">
           <li>Strona główna</li>
           <li>Oferta</li>
           <li>Galeria</li>
