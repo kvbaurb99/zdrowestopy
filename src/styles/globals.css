@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-sizing {
+  @apply w-[70%] mx-auto;
+}
